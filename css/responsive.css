@@ -1,0 +1,1088 @@
+/* lg */
+@media (min-width: 1200px) {
+	.footer-area .foot-social-icon i{
+		margin-left: 10px;
+	}
+	.menu-area ul{
+		margin-right: 160px;
+	}
+}
+
+/* md */
+@media (min-width: 992px) and (max-width: 1199px) {
+	/*.googleMap-area .googleMap-content i{
+		top: 103%;
+		left: 46%;
+	}*/
+	.menu-area ul{
+		margin-right: 100px;
+	}
+	.carousel-caption{
+		bottom: 50px;
+	}
+	.slider-area .carousel-caption h1{
+		font-size: 38px;
+	}
+	.slider-area .carousel-caption p{
+		font-size: 18px;
+		margin-left: 5%;
+		margin-right: 5%;
+		bottom: 0;
+	}
+	.footer-area .foot-social-icon i{
+		margin-left: 10px;
+	}
+	.works-tabs ul li a.left-tab{
+		padding-left: 207.5px;
+		padding-right: 207.5px;
+	}
+	.works-tabs ul li a.mid-tab{
+		padding-right: 208px;
+		padding-left: 208px;
+	}
+	.works-tabs ul li a.right-tab{
+		padding-right: 193.5px;
+		padding-left: 193.5px;
+	}
+	.googleMap-area .googleMap-content i{
+		left: 44%;
+		top: 97%
+	}
+	.sigworks-group .single-sigworks{
+		margin-left: -17px;
+	}
+	.portfolio-area .portfolio-items .portfolio-item{
+		margin-bottom: 5px;
+	}
+	.portfolio-area .portfolio-items{
+		margin-left: -35px;
+		margin-right: -10px;
+	}
+}
+
+/* sm */
+@media (min-width: 768px) and (max-width: 991px) {
+	/*.works-tabs ul li a {
+	  padding-left: 66px;
+	  padding-right: 66px;
+	}*/
+	.carousel-caption{
+		bottom: 20px;
+	}
+	.slider-area .carousel-caption h1{
+		font-size: 36px;
+	}
+	.slider-area .carousel-caption p{
+		font-size: 16px;
+		margin-left: 5%;
+		margin-right: 5%;
+		bottom: 0;
+	}
+	.portfolio-area .portfilter-area{
+		position: relative;
+		margin-left: 14%;
+	}
+	.footer-area .foot-social-icon i{
+		margin-left: 10px;
+	}
+	.googleMap-area .googleMap-content i{
+		top: 103%;
+		left: 46.5%;
+	}
+	.works-tabs ul li a{
+		padding-left: 128.5px;
+		padding-right: 128.5px;
+	}
+	.works-tabs ul li a.mid-tab{
+		padding-right: 129.07px;
+	}
+	.works-tabs ul li a.right-tab{
+		padding-right: 114.36px;
+		padding-left: 114.36px;
+	}
+}
+
+/* xs */
+@media (max-width: 767px) and (min-width: 680px) {
+	.slider-area .slide a.carousel-control, .slide-down {
+		display: none;
+	}
+	.header-area .container {
+	  position: relative;
+	}
+	.menu-area {
+	  float: none;
+	  position: absolute;
+	  width: 100%;
+	}	
+	button.navbar-toggle {
+	  background-color: #fff;
+	  border-radius: 10%;
+	  border: 1px solid #f4f4f4;
+	  right: -20px;
+	}
+	.navbar-toggle .icon-bar {
+	  background-color: #333;
+	}
+	.menu-area ul.nav {
+	  background-color: #dd374d;
+	}	
+	.menu-area ul.nav li a {
+		border-bottom: 1px solid #666;
+		margin: 0;
+		padding: 15px;
+	}
+	.menu-area ul.nav li:last-child a {
+		border-bottom: 0px solid #666;
+	}
+	.menu-area ul.nav li:hover a {
+		background-color: #333;
+	}
+	.slider-area {
+		top: -23px;
+	}
+	.navbar{
+		top: -3px;
+	}
+	.nav-tabs > li {
+		float: none;
+	}
+	.works-tabs h1, .progress-bars h1 {
+		font-size: 26px;
+	}
+	.googleMap-area .googleMap-content i{
+		top: 103%;
+		left: 45.5%;
+	}
+	.specilizer-area .block-left>h1{
+		margin-left: 40%;
+	}
+	.specilizer-area .progress-bars h1{
+		margin-left: 35%;
+	}
+	.footer-area .foot-social-icon i{
+		margin-left: 10px;
+	}
+	.portfolio-area .portfilter-area{
+		position: relative;
+		margin-left: 13%;
+	}
+	.portfolio-area .portfolio-items{
+		margin-left: 29%;
+	}
+}
+
+/*667*/
+@media (max-width: 680px) and (min-width: 610px){
+	.slider-area .slide a.carousel-control, .slide-down {
+		display: none;
+	}
+	.header-area .container {
+	  position: relative;
+	}
+	.menu-area {
+	  float: none;
+	  position: absolute;
+	  width: 100%;
+	}	
+	button.navbar-toggle {
+	  background-color: #fff;
+	  border-radius: 10%;
+	  border: 1px solid #f4f4f4;
+	  right: -20px;
+	}
+	.navbar-toggle .icon-bar {
+	  background-color: #333;
+	}
+	.menu-area ul.nav {
+	  background-color: #dd374d;
+	}	
+	.menu-area ul.nav li a {
+		border-bottom: 1px solid #666;
+		margin: 0;
+		padding: 15px;
+	}
+	.menu-area ul.nav li:last-child a {
+		border-bottom: 0px solid #666;
+	}
+	.menu-area ul.nav li:hover a {
+		background-color: #333;
+	}
+	.slider-area {
+		top: -23px;
+	}
+	.navbar{
+		top: -3px;
+	}
+	.nav-tabs > li {
+		float: none;
+	}
+	.works-tabs h1, .progress-bars h1 {
+		font-size: 26px;
+	}
+	.carousel-caption{
+		bottom: 20px;
+	}
+	.slider-area .carousel-caption h1{
+		font-size: 36px;
+	}
+	.slider-area .carousel-caption p{
+		font-size: 16px;
+		margin-left: 5%;
+		margin-right: 5%;
+		bottom: 0;
+	}
+	.specilizer-area .block-left>h1{
+		margin-left: 34%;
+	}
+	.specilizer-area .progress-bars h1{
+		margin-left: 27%;
+	}
+	.footer-area .foot-social-icon i{
+		margin-left: 10px;
+	}
+	.googleMap-area .googleMap-content i{
+		top: 103%;
+		left: 45%;
+	}
+	.portfolio-area .portfilter-area ul li{
+		/*list-style-type: none;*/
+	}
+	.portfolio-area .portfilter-area ul li a{
+	/*	margin-right: 18px;
+		margin-right: 18px;*/
+	}
+	.portfolio-area .portfilter-area{
+		position: relative;
+		margin-left: 12%;
+	}
+	.portfolio-area .portfolio-items{
+		margin-left: 27%;
+	}
+	.portfolio-area .portfolio-items .portfolio-item{
+		margin-bottom: 5px;
+		float: left;
+		margin-right: -10px;
+	}
+}
+
+/* 568px portrait - iphone 5 landscape*/
+@media (max-width: 610px) and (min-width: 526px){
+	.slider-area .slide a.carousel-control, .slide-down {
+		display: none;
+	}
+	.header-area .container {
+	  position: relative;
+	}
+	.menu-area {
+	  float: none;
+	  position: absolute;
+	  width: 100%;
+	}	
+	button.navbar-toggle {
+	  background-color: #fff;
+	  border-radius: 10%;
+	  border: 1px solid #f4f4f4;
+	  right: -20px;
+	}
+	.navbar-toggle .icon-bar {
+	  background-color: #333;
+	}
+	.menu-area ul.nav {
+	  background-color: #dd374d;
+	}	
+	.menu-area ul.nav li a {
+		border-bottom: 1px solid #666;
+		margin: 0;
+		padding: 15px;
+	}
+	.menu-area ul.nav li:last-child a {
+		border-bottom: 0px solid #666;
+	}
+	.menu-area ul.nav li:hover a {
+		background-color: #333;
+	}
+	.slider-area {
+		top: -23px;
+	}
+	.navbar{
+		top: -3px;
+	}
+	.nav-tabs > li {
+		float: none;
+	}
+	.works-tabs h1, .progress-bars h1 {
+		font-size: 26px;
+	}
+	.carousel-caption{
+		bottom: -2px;
+	}
+	.slider-area .carousel-caption h1{
+		font-size: 35px;
+	}
+	.slider-area .carousel-caption p{
+		font-size: 15px;
+		margin-left: 5%;
+		margin-right: 5%;
+		bottom: 0;
+	}
+	.specilizer-area .block-left>h1{
+		margin-left: 34%;
+	}
+	.specilizer-area .progress-bars h1{
+		margin-left: 27%;
+	}
+	.footer-area .foot-social-icon i{
+		margin-left: 10px;
+	}
+	.googleMap-area .googleMap-content i{
+		top: 96%;
+		left: 44%;
+	}
+	.portfolio-area .portfilter-area{
+		position: relative;
+		margin-left: 8%;
+	}
+	.portfolio-area .portfolio-items{
+		margin-left: 22%;
+	}
+}
+/* 526px portrait*/
+@media (max-width: 526px) and (min-width: 470px) {
+	.slider-area .slide a.carousel-control, .slide-down {
+		display: none;
+	}
+	.header-area .container {
+	  position: relative;
+	}
+	.menu-area {
+	  float: none;
+	  position: absolute;
+	  width: 100%;
+	}	
+	button.navbar-toggle {
+	  background-color: #fff;
+	  border-radius: 10%;
+	  border: 1px solid #f4f4f4;
+	  right: -20px;
+	}
+	.navbar-toggle .icon-bar {
+	  background-color: #333;
+	}
+	.menu-area ul.nav {
+	  background-color: #dd374d;
+	}	
+	.menu-area ul.nav li a {
+		border-bottom: 1px solid #666;
+		margin: 0;
+		padding: 15px;
+	}
+	.menu-area ul.nav li:last-child a {
+		border-bottom: 0px solid #666;
+	}
+	.menu-area ul.nav li:hover a {
+		background-color: #333;
+	}
+	.slider-area {
+		top: -23px;
+	}
+	.navbar{
+		top: -3px;
+	}
+	.nav-tabs > li {
+		float: none;
+	}
+	.works-tabs h1, .progress-bars h1 {
+		font-size: 26px;
+	}
+	.googleMap-area .googleMap-content i{
+		top: 96%;
+		left: 44%;
+	}
+	.portfolio-area .portfilter-area{
+		position: relative;
+		margin-left: 4%;
+	}
+	.portfolio-area .portfolio-items{
+		margin-left: 15.5%;
+	}
+	.googleMap-area .googleMap-content i{
+		top: 96%;
+		left: 43%;
+	}
+}
+
+/* 450px portrait - iphone 6 plump portrait*/
+@media (max-width: 470px) and (min-width: 410px) and (orientation: portrait){
+	.slider-area .slide a.carousel-control, .slide-down {
+		display: none;
+	}
+	.header-area .container {
+	  position: relative;
+	}
+	.menu-area {
+	  float: none;
+	  position: absolute;
+	  width: 100%;
+	}	
+	button.navbar-toggle {
+	  background-color: #fff;
+	  border-radius: 10%;
+	  border: 1px solid #f4f4f4;
+	  right: -20px;
+	}
+	.navbar-toggle .icon-bar {
+	  background-color: #333;
+	}
+	.menu-area ul.nav {
+	  background-color: #dd374d;
+	}	
+	.menu-area ul.nav li a {
+		border-bottom: 1px solid #666;
+		margin: 0;
+		padding: 15px;
+	}
+	.menu-area ul.nav li:last-child a {
+		border-bottom: 0px solid #666;
+	}
+	.menu-area ul.nav li:hover a {
+		background-color: #333;
+	}
+	.slider-area {
+		top: -23px;
+	}
+	.navbar{
+		top: -3px;
+	}
+	.nav-tabs > li {
+		float: none;
+	}
+	.works-tabs h1, .progress-bars h1 {
+		font-size: 26px;
+	}
+	.carousel-caption{
+		bottom: -12px;
+	}
+	.slider-area .carousel-caption h1{
+		font-size: 23px;
+	}
+	.slider-area .carousel-caption p{
+		font-size: 13px;
+		margin-left: 5%;
+		margin-right: 5%;
+		bottom: 0;
+	}
+	.specilizer-area .block-left>h1{
+		margin-left: 28%;
+	}
+	.specilizer-area .progress-bars h1{
+		margin-left: 15%;
+	}
+	.googleMap-area .googleMap-content i{
+		top: 96%;
+		left: 42%;
+	}
+	.googleMap-area .googleMap-content .map-devider:before{
+		background-color: #fff;
+		content: "";
+		height: 1px;
+		left: 0;
+		margin-top: 10px;
+		position: absolute;
+		width: 44%;	
+	}
+	.googleMap-area .googleMap-content .map-devider:after{
+		background-color: #fff;
+		content: "";
+		height: 1px;
+		right: 0;
+		margin-top: 10px;
+		position: absolute;
+		width: 44%;
+	}
+	.footer-area .foot-social-icon i{
+		margin-left: 10px;
+	}
+	.works-area .works-content .work-deliver:before{
+		background-color: #e9e9e9;
+		content: "";
+		height: 1px;
+		left: 0;
+		margin-top: 10px;
+		position: absolute;
+		width: 44%;
+	}
+	.works-area .works-content .work-deliver:after{
+		background-color: #e9e9e9;
+		content: "";
+		height: 1px;
+		right: 0;
+		margin-top: 10px;
+		position: absolute;
+		width: 44%;
+	}
+	.portfolio-area .portfilter-area ul li{
+		list-style-type: none;
+	}
+	.portfolio-area .portfilter-area ul li a{
+		margin-right: 18px;
+	}
+	.portfolio-area .portfilter-area{
+		position: relative;
+		margin-left: 14px;
+	}
+	.portfolio-area .portfolio-items{
+		margin-left: 10%;
+	}
+}
+
+/* 405px portrait - iphone 6 portrait*/
+@media (max-width: 410px) and (min-width: 365px) and (orientation: portrait){
+	.slider-area .slide a.carousel-control, .slide-down {
+		display: none;
+	}
+	.header-area .container {
+	  position: relative;
+	}
+	.menu-area {
+	  float: none;
+	  position: absolute;
+	  width: 100%;
+	}	
+	button.navbar-toggle {
+	  background-color: #fff;
+	  border-radius: 10%;
+	  border: 1px solid #f4f4f4;
+	  right: -20px;
+	}
+	.navbar-toggle .icon-bar {
+	  background-color: #333;
+	}
+	.menu-area ul.nav {
+	  background-color: #dd374d;
+	}	
+	.menu-area ul.nav li a {
+		border-bottom: 1px solid #666;
+		margin: 0;
+		padding: 15px;
+	}
+	.menu-area ul.nav li:last-child a {
+		border-bottom: 0px solid #666;
+	}
+	.menu-area ul.nav li:hover a {
+		background-color: #333;
+	}
+	.slider-area {
+		top: -23px;
+	}
+	.navbar{
+		top: -3px;
+	}
+	.nav-tabs > li {
+		float: none;
+	}
+	.works-tabs h1, .progress-bars h1 {
+		font-size: 26px;
+	}
+	.carousel-caption{
+		bottom: -15px;
+	}
+	.slider-area .carousel-caption h1{
+		font-size: 22px;
+	}
+	.slider-area .carousel-caption p{
+		font-size: 12px;
+		margin-left: 5%;
+		margin-right: 5%;
+		bottom: 0;
+	}
+	.specilizer-area .block-left>h1{
+		margin-left: 28%;
+	}
+	.specilizer-area .progress-bars h1{
+		margin-left: 10%;
+	}
+	.googleMap-area .googleMap-content i{
+		top: 96%;
+		left: 42%;
+	}
+	.googleMap-area .googleMap-content .map-devider:before{
+		background-color: #fff;
+		content: "";
+		height: 1px;
+		left: 0;
+		margin-top: 10px;
+		position: absolute;
+		width: 44%;	
+	}
+	.googleMap-area .googleMap-content .map-devider:after{
+		background-color: #fff;
+		content: "";
+		height: 1px;
+		right: 0;
+		margin-top: 10px;
+		position: absolute;
+		width: 44%;
+	}
+	.footer-area .foot-social-icon i{
+		margin-left: 10px;
+	}
+	.works-area .works-content .work-deliver:before{
+		background-color: #e9e9e9;
+		content: "";
+		height: 1px;
+		left: 0;
+		margin-top: 10px;
+		position: absolute;
+		width: 44%;
+	}
+	.works-area .works-content .work-deliver:after{
+		background-color: #e9e9e9;
+		content: "";
+		height: 1px;
+		right: 0;
+		margin-top: 10px;
+		position: absolute;
+		width: 44%;
+	}
+	.portfolio-area .portfilter-area ul li{
+		list-style-type: none;
+	}
+	.portfolio-area .portfilter-area ul li a{
+		margin-right: 18px;
+	}
+	.portfolio-area .portfilter-area{
+		position: relative;
+		margin-left: 3px;
+		margin-right: -13px;
+	}
+	.portfolio-area .portfilter-area{
+		position: relative;
+	}
+	.portfolio-area .portfolio-items{
+		/*margin-left: 20px;*/
+	}
+}
+
+/* 365px portrait*/
+@media (max-width: 365px) and (min-width: 335px) and (orientation: portrait){
+	.slider-area .slide a.carousel-control, .slide-down {
+		display: none;
+	}
+	.header-area .container {
+	  position: relative;
+	}
+	.menu-area {
+	  float: none;
+	  position: absolute;
+	  width: 100%;
+	}	
+	button.navbar-toggle {
+	  background-color: #fff;
+	  border-radius: 10%;
+	  border: 1px solid #f4f4f4;
+	  right: -20px;
+	}
+	.navbar-toggle .icon-bar {
+	  background-color: #333;
+	}
+	.menu-area ul.nav {
+	  background-color: #dd374d;
+	}	
+	.menu-area ul.nav li a {
+		border-bottom: 1px solid #666;
+		margin: 0;
+		padding: 15px;
+	}
+	.menu-area ul.nav li:last-child a {
+		border-bottom: 0px solid #666;
+	}
+	.menu-area ul.nav li:hover a {
+		background-color: #333;
+	}
+	.slider-area {
+		top: -23px;
+	}
+	.navbar{
+		top: -3px;
+	}
+	.nav-tabs > li {
+		float: none;
+	}
+	.works-tabs h1, .progress-bars h1 {
+		font-size: 26px;
+	}
+	.carousel-caption{
+		bottom: -15px;
+	}
+	.slider-area .carousel-caption h1{
+		font-size: 22px;
+	}
+	.slider-area .carousel-caption p{
+		font-size: 12px;
+		margin-left: 5%;
+		margin-right: 5%;
+		bottom: 0;
+	}
+	.specilizer-area .block-left>h1{
+		margin-left: 28%;
+	}
+	.specilizer-area .progress-bars h1{
+		margin-left: 10%;
+	}
+	.googleMap-area .googleMap-content i{
+		top: 97%;
+		left: 40%;
+	}
+	.googleMap-area .googleMap-content .map-devider:before{
+		background-color: #fff;
+		content: "";
+		height: 1px;
+		left: 0;
+		margin-top: 10px;
+		position: absolute;
+		width: 44%;	
+	}
+	.googleMap-area .googleMap-content .map-devider:after{
+		background-color: #fff;
+		content: "";
+		height: 1px;
+		right: 0;
+		margin-top: 10px;
+		position: absolute;
+		width: 44%;
+	}
+	.footer-area .foot-social-icon i{
+		margin-left: 10px;
+	}
+	.works-area .works-content .work-deliver:before{
+		background-color: #e9e9e9;
+		content: "";
+		height: 1px;
+		left: 0;
+		margin-top: 10px;
+		position: absolute;
+		width: 44%;
+	}
+	.works-area .works-content .work-deliver:after{
+		background-color: #e9e9e9;
+		content: "";
+		height: 1px;
+		right: 0;
+		margin-top: 10px;
+		position: absolute;
+		width: 44%;
+	}
+	.portfolio-area .portfilter-area ul li{
+		list-style-type: none;
+	}
+	.portfolio-area .portfilter-area ul li a{
+		margin-right: 10px;
+	}
+	.portfolio-area .portfilter-area{
+		position: relative;
+		margin-left: 7px;
+		margin-right: -7px;
+	}
+	.portfolio-area .portfilter-area{
+		position: relative;
+	}
+	.portfolio-area .portfolio-items{
+		margin-left: 6px;
+	}
+}
+
+/* 335px portrait - iphone 5 portrait*/
+@media (max-width: 335px) and (min-width: 310px) and (orientation: portrait){
+	.slider-area .slide a.carousel-control, .slide-down {
+		display: none;
+	}
+	.header-area .container {
+	  position: relative;
+	}
+	.menu-area {
+	  float: none;
+	  position: absolute;
+	  width: 100%;
+	}	
+	button.navbar-toggle {
+	  background-color: #fff;
+	  border-radius: 10%;
+	  border: 1px solid #f4f4f4;
+	  right: -20px;
+	}
+	.navbar-toggle .icon-bar {
+	  background-color: #333;
+	}
+	.menu-area ul.nav {
+	  background-color: #dd374d;
+	}	
+	.menu-area ul.nav li a {
+		border-bottom: 1px solid #666;
+		margin: 0;
+		padding: 15px;
+	}
+	.menu-area ul.nav li:last-child a {
+		border-bottom: 0px solid #666;
+	}
+	.menu-area ul.nav li:hover a {
+		background-color: #333;
+	}
+	.slider-area {
+		top: -23px;
+	}
+	.navbar{
+		top: -3px;
+	}
+	.nav-tabs > li {
+		float: none;
+	}
+	.works-tabs h1, .progress-bars h1 {
+		font-size: 26px;
+	}
+	.carousel-caption{
+		bottom: -10px;
+	}
+	.slider-area .carousel-caption h1{
+		font-size: 20px;
+	}
+	.slider-area .carousel-caption p{
+		font-size: 10px;
+		margin-left: 5%;
+		margin-right: 5%;
+		bottom: 0;
+	}
+	.sigworks-group{
+		display: block;
+		padding-right: 40px;
+		margin-left: -10px;
+	}
+	.googleMap-area .googleMap-content i{
+		top: 90%;
+		left: 40%;
+	}
+	.googleMap-area .googleMap-content .map-devider:before{
+		background-color: #fff;
+		content: "";
+		height: 1px;
+		left: 0;
+		margin-top: 10px;
+		position: absolute;
+		width: 44%;	
+	}
+	.googleMap-area .googleMap-content .map-devider:after{
+		background-color: #fff;
+		content: "";
+		height: 1px;
+		right: 0;
+		margin-top: 10px;
+		position: absolute;
+		width: 44%;
+	}
+	.specilizer-area .works-tabs .tab-content .single-tab p{
+		margin: 21px 25px 31px 24px;
+	}
+	.specilizer-area .block-left>h1{
+		margin: 34px 0px 21px 52px;
+	}
+	.specilizer-area .progress-bars{
+		padding: 0px;
+		padding-left: 10px;
+	}
+	.portfolio-area .portfilter-area ul li{
+		list-style-type: none;
+	}
+	.portfolio-area .portfilter-area ul li a{
+		margin-right: 10px;
+		font-size: 12px;
+	}
+	.portfolio-area .portfilter-area{
+		position: relative;
+		margin-left: 4px;
+		margin-right: -7px;
+	}
+	.portfolio-area .portfolio-items{
+		margin-left: -10px;
+	}
+	.footer-area .foot-social-icon i{
+		margin-left: 10px;
+	}
+	.works-area .works-content .work-deliver:before{
+		background-color: #e9e9e9;
+		content: "";
+		height: 1px;
+		left: 0;
+		margin-top: 10px;
+		position: absolute;
+		width: 44%;
+	}
+	.works-area .works-content .work-deliver:after{
+		background-color: #e9e9e9;
+		content: "";
+		height: 1px;
+		right: 0;
+		margin-top: 10px;
+		position: absolute;
+		width: 44%;
+	}
+	.counter-area .my-counter .counter-item{
+		margin-left: -5px;
+		float: none;
+	}
+	.counter-area .my-counter img{
+		width: 23px;
+		height: 28px;
+	}
+	/*.specilizer-area .progress-bars h1{
+		font-size: 20px;
+	}*/
+}
+
+/* 310px portrait*/
+@media (max-width: 310px) and (orientation: portrait){
+	.slider-area .slide a.carousel-control, .slide-down {
+		display: none;
+	}
+	.header-area .container {
+	  position: relative;
+	}
+	.menu-area {
+	  float: none;
+	  position: absolute;
+	  width: 100%;
+	}	
+	button.navbar-toggle {
+	  background-color: #fff;
+	  border-radius: 10%;
+	  border: 1px solid #f4f4f4;
+	  right: -20px;
+	}
+	.navbar-toggle .icon-bar {
+	  background-color: #333;
+	}
+	.menu-area ul.nav {
+	  background-color: #dd374d;
+	}	
+	.menu-area ul.nav li a {
+		border-bottom: 1px solid #666;
+		margin: 0;
+		padding: 15px;
+	}
+	.menu-area ul.nav li:last-child a {
+		border-bottom: 0px solid #666;
+	}
+	.menu-area ul.nav li:hover a {
+		background-color: #333;
+	}
+	.slider-area {
+		top: -23px;
+	}
+	.navbar{
+		top: -3px;
+	}
+	.nav-tabs > li {
+		float: none;
+	}
+	.works-tabs h1, .progress-bars h1 {
+		font-size: 26px;
+	}
+	.carousel-caption{
+		bottom: -10px;
+	}
+	.slider-area .carousel-caption h1{
+		font-size: 20px;
+	}
+	.slider-area .carousel-caption p{
+		font-size: 10px;
+		margin-left: 5%;
+		margin-right: 5%;
+		bottom: 0;
+	}
+	.sigworks-group{
+		display: block;
+		padding-right: 40px;
+		margin-left: -10px;
+	}
+	.googleMap-area .googleMap-content i{
+		top: 93%;
+		left: 38%;
+	}
+	.googleMap-area .googleMap-content .map-devider:before{
+		background-color: #fff;
+		content: "";
+		height: 1px;
+		left: 0;
+		margin-top: 10px;
+		position: absolute;
+		width: 43%;	
+	}
+	.googleMap-area .googleMap-content .map-devider:after{
+		background-color: #fff;
+		content: "";
+		height: 1px;
+		right: 0;
+		margin-top: 10px;
+		position: absolute;
+		width: 43%;
+	}
+	.specilizer-area .works-tabs .tab-content .single-tab p{
+		margin: 21px 25px 31px 24px;
+	}
+	.specilizer-area .block-left>h1{
+		margin: 34px 0px 21px 52px;
+	}
+	.specilizer-area .progress-bars{
+		padding: 0px;
+		padding-left: 10px;
+	}
+	.portfolio-area .portfilter-area ul li{
+		list-style-type: none;
+	}
+	.portfolio-area .portfilter-area ul li a{
+		margin-right: 10px;
+		font-size: 12px;
+	}
+	.portfolio-area .portfilter-area{
+		position: relative;
+		margin-left: 1px;
+		margin-right: -7px;
+	}
+	.portfolio-area .portfolio-items{
+		margin-left: -24px;
+	}
+	.footer-area .foot-social-icon i{
+		margin-left: 10px;
+	}
+	.works-area .works-content .work-deliver:before{
+		background-color: #e9e9e9;
+		content: "";
+		height: 1px;
+		left: 0;
+		margin-top: 10px;
+		position: absolute;
+		width: 43%;
+	}
+	.works-area .works-content .work-deliver:after{
+		background-color: #e9e9e9;
+		content: "";
+		height: 1px;
+		right: 0;
+		margin-top: 10px;
+		position: absolute;
+		width: 43%;
+	}
+	/*.counter-area .my-counter {
+		display: block;
+	}*/
+	.counter-area .my-counter .counter-item{
+		margin-left: -5px;
+		float: none;
+	}
+	.counter-area .my-counter img{
+		width: 23px;
+		height: 28px;
+	}
+	.specilizer-area .progress-bars h1{
+		font-size: 18px;
+	}
+}

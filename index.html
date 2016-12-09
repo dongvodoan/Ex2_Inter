@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Conveter PSD to HTML</title>
+	<meta name="description" content="Conveter PSD to HTML" >
+	<link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="node_modules/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="node_modules/animate.css/animate.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+	<script src="node_modules/jquery/dist/jquery.min.js"></script>
+	<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script src="node_modules/isotope-layout/dist/isotope.pkgd.min.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCvmZnY4hNFk0C1mek1OfM-fYbw1J1f4Ww&callback=initMap"
+        async defer></script>
+	<script src="js/script.js"></script>
+</head>
+<body>
+<header id="header-section" class="header-area">
+	<div class="container">
+		<div class="row">
+			<!-- <div class="col-lg-11 col-md-11 col-sm-12 col-xs-12 col-lg-offset-1 col-md-offset-1"> -->
+			<!-- <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"></div> -->
+				<!-- <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6"> -->
+					<!-- <div class="logo">
+						<a href="" class="navbar-brand">
+							<img src="logos/creative.png" alt="creative.png">
+						</a>
+					</div> -->
+				<!-- </div>logo -->
+				<div class="col-lg-10 col-md-10 col-sm-12 col-xs-12 col-lg-offset-2 col-md-offset-2">
+					<nav class="navbar">
+  						<div class="container-fluid">
+    					<!-- Brand and toggle get grouped for better mobile display -->
+    						<div class="navbar-header">
+      							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".menu-area" aria-expanded="false">
+							        <span class="sr-only">Toggle navigation</span>
+							        <span class="icon-bar"></span>
+							        <span class="icon-bar"></span>
+							        <span class="icon-bar"></span>
+      							</button>
+      							<a href="" class="navbar-brand">
+									<img src="logos/creative.png" alt="creative.png">
+								</a>
+   							 </div>
+
+    						<!-- Collect the nav links, forms, and other content for toggling -->
+	    					<div class="menu-area collapse navbar-collapse">
+	      						<ul class="nav navbar-nav navbar-right">
+	        						<li class="active"><a href="">About</a></li>
+									<li><a href="">Services</a></li>
+									<li><a href="">Porfolio</a></li>
+									<li><a href="">Team</a></li>
+									<li><a href="">Contact</a></li>
+	      						</ul>
+	    					</div><!-- /.navbar-collapse -->
+  						</div><!-- /.container-fluid -->
+					</nav>
+				</div>
+			<!-- </div> -->
+		</div>			
+	</div><!--end navbar-->
+	<section id="slider-section" class="slider-area">
+		<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+		  	<!-- Wrapper for slides -->
+		  	<div class="carousel-inner" role="listbox">
+						<div class="item active single-slider">
+							<img class="img-responsive" src="images/slider.jpg" alt="">
+							<div class="carousel-caption">
+								<div class="row">
+									<div class="col-lg-4 col-lg-offset-4">
+										<h1 class="animated bounceInLeft" id="diff">WE Love UX-Design</h1>
+										<p class="animated bounceInRight">Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look</p>
+									</div>
+								</div>	
+							</div>
+						</div>
+						<div class="item single-slider">
+							<img src="images/slider.jpg" alt="">
+							<div class="carousel-caption">
+								<div class="row">
+									<div class="col-lg-4 col-lg-offset-4">
+										<h1 class="animated bounceInDown">WE Love UI</h1>
+										<p class="animated bounceInUp">Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look</p>
+									</div>
+								</div>	
+							</div>
+						</div>
+						<div class="item single-slider">
+							<img src="images/slider.jpg" alt="">
+							<div class="carousel-caption">
+								<div class="row">
+									<div class="col-lg-4 col-lg-offset-4">
+										<h1>WE Love PHP</h1>
+										<p>Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look</p>
+									</div>
+								</div>
+							</div>	
+						</div>
+					</div>
+		  	<!-- Controls -->
+		  	<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+				<i class="fa fa-angle-left" aria-hidden="true"></i>
+			</a>
+			<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+				<i class="fa fa-angle-right" aria-hidden="true"></i>
+			</a>
+		</div>
+		<div class="slide-down">
+			<a href="#about-content">
+				<img src="icons/down.png" alt="icon_down.png">
+			</a>
+		</div>
+	</section><!--end section-slider-area-->
+</header><!--end header-->
+<section id="aboutus-section" class="aboutus-area">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12 col-md-12 col-xs-12">
+				<div class="about-content" id="about-content">
+					<h1>Invert in your <span>feature</span></h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillm dolore eu fugiat nulla pariatur. Lorem ipsum dolor sit amet, consectetur adipicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley og type and scrambled it to make a type specimen book</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section><!--end section-aboutus-area-->
+<section id="promotion-section" class="promotion-area">
+	<div class="container">
+		<div class="row">
+			<div class="featured-area">
+				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+					<div class="single-featurebox">
+						<div class="single-feature-image" style="padding: 25px 30px;">
+							<img src="icons/pen.png" alt="icon-pen">
+						</div>
+						<h3>EASY CUSTOMIZE</h3>
+						<p>Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose</p>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+					<div class="single-featurebox">
+						<div class="single-feature-image">
+							<img src="icons/light.png" alt="icon-light">
+						</div>
+						<h3>CREATIVE LAYOUT</h3>
+						<p>Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose</p>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+					<div class="single-featurebox">
+						<div class="single-feature-image">
+							<i><img src="icons/desktop.png" alt="icon-desktop"></i>
+						</div>
+						<h3>CREATIVE LAYOUT</h3>
+						<p>Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose</p>
+					</div>
+				</div>
+			</div><!--end feature-area-->
+			<div class="testimonial-area">
+				<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 col-lg-offset-2 col-md-offset-2">
+					<div class="testimonial-slider">
+						<div class="testi-deliver text-center">
+							<img src="icons/mini-user.png" alt="icon_mini_user">
+						</div>
+						<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  						<!-- Indicators -->
+  						<ol class="carousel-indicators">
+						    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+						    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+						    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+  						</ol>
+
+				  		<!-- Wrapper for slides -->
+				  		<div class="carousel-inner" role="listbox">
+				    		<div class="item active single-testi">
+					    		<div class="row">
+					    			<div class="col-lg-9 col-md-9 col-sm-12 col-xs-12 col-lg-offset-2 col-md-offset-2">
+					    				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+					    			</div>
+					    		</div>
+				      			<div class="testi-author">
+				        			<h4>Annie Smith</h4>
+				        			<h6>UI Designer</h6>
+				      			</div>
+				    		</div>
+				    		<div class="item single-testi">
+				      			<div class="row">
+					    			<div class="col-lg-9 col-md-9 col-sm-12 col-xs-12 col-lg-offset-2 col-md-offset-2">
+					    				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+					    			</div>
+					    		</div>
+				      			<div class="testi-author">
+				        			<h4>Annie Smith</h4>
+				        			<h6>UI Designer</h6>
+				      			</div>
+				    		</div>
+				  		</div>
+					</div>
+					</div>
+				</div>
+			</div><!--end testimonal-area-->
+		</div>
+	</div>
+</section><!--end section-promotion-area-->
+<section id="specilizer-section" class="specilizer-area">
+	<div class="container">
+		<div class="row">
+		<div class="col-lg-10 col-md-10 col-sm-12 col-xs-12 col-lg-offset-1 col-md-offset-1">
+			<div class="block-left col-lg-8 col-md-8 col-sm-6 col-xs-12" >
+				<h1>What We do</h1>
+				<div class="works-tabs">
+					<!-- Nav tabs -->
+					<ul class="nav nav-tabs" role="tablist">
+						<li role="presentation"><a class="left-tab" href="#development" aria-controls="development" role="tab" data-toggle="tab">Development</a></li>
+						<li role="presentation" class="active"><a class="mid-tab" href="#visualDesign" aria-controls="visualDesign" role="tab" data-toggle="tab">Visual Design</a></li>
+						<li role="presentation"><a class="right-tab" href="#internetMarketing" aria-controls="internetMarketing" role="tab" data-toggle="tab">Internet Marketing</a></li>
+					</ul>
+
+					 <!-- Tab panes -->
+					 <div class="tab-content">
+						<div role="tabpanel" class="tab-pane" id="development">
+							<div class="single-tab">
+								<p>Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
+								<div class="sigworks-group">
+									<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+										<div class="single-sigworks">
+											<i class="fa fa-unlink"></i>
+											<h4>Web</h4>
+										</div>	
+									</div>
+									<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+										<div class="single-sigworks">
+											<i class="fa fa-list-ul"></i>
+											<h4>Grapics</h4>
+										</div>	
+									</div>
+									<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+										<div class="single-sigworks">
+											<i class="fa fa-laptop"></i>
+											<h4>Branding</h4>
+										</div>	
+									</div>
+									<div class="col-lg-3 col-md-3 col-sm-6 col-xs6">
+										<div class="single-sigworks">
+											<i class="fa fa-recycle"></i>
+											<h4>Typography</h4>
+										</div>	
+									</div>
+								</div>
+							</div>
+						</div><!--end content-tab-1-->
+					    <div role="tabpanel" class="tab-pane active" id="visualdesign">
+					    	<div class="single-tab">
+								<p>Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
+								<div class="sigworks-group">
+									<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+										<div class="single-sigworks">
+											<i class="fa fa-unlink"></i>
+											<h4>Web</h4>
+										</div>	
+									</div>
+									<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+										<div class="single-sigworks">
+											<i class="fa fa-list-ul"></i>
+											<h4>Grapics</h4>
+										</div>	
+									</div>
+									<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+										<div class="single-sigworks">
+											<i class="fa fa-laptop"></i>
+											<h4>Branding</h4>
+										</div>	
+									</div>
+									<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+										<div class="single-sigworks">
+											<i class="fa fa-recycle"></i>
+											<h4>Typography</h4>
+										</div>	
+									</div>
+								</div>
+							</div>
+					    </div><!--end content-tab-2-->
+					    <div role="tabpanel" class="tab-pane" id="internetMarketing">
+					    	<div class="single-tab">
+								<p>Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
+								<div class="sigworks-group">
+									<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+										<div class="single-sigworks">
+											<i class="fa fa-unlink"></i>
+											<h4>Web</h4>
+										</div>	
+									</div>
+									<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+										<div class="single-sigworks">
+											<i class="fa fa-list-ul"></i>
+											<h4>Grapics</h4>
+										</div>	
+									</div>
+									<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+										<div class="single-sigworks">
+											<i class="fa fa-laptop"></i>
+											<h4>Branding</h4>
+										</div>	
+									</div>
+									<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+										<div class="single-sigworks">
+											<i class="fa fa-recycle"></i>
+											<h4>Typography</h4>
+										</div>	
+									</div>
+								</div>
+							</div>
+					    </div><!--end content-tab-3-->
+					</div>
+				</div><!--end works-tabs-->
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+				<div class="progress-bars">
+					<h1>our specialization</h1>
+					<div class="title-progress">
+						<p>I am text block. Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+					</div>
+					<div class="progressbar-area">
+						<div class="single-progressbar">
+							<div class="progresstitle"><span>Web Development</span><span class="value">80%</span></div>
+							<div class="progress">
+	  							<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+	    							<span class="sr-only">Value</span>
+	  							</div>
+							</div>
+						</div>
+						<div class="single-progressbar">
+							<div class="progresstitle"><span>Visual Designs</span><span class="value">90%</span></div>
+							<div class="progress">
+	  							<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
+	    							<span class="sr-only">Value</span>
+	  							</div>
+							</div>
+						</div>
+						<div class="single-progressbar">
+							<div class="progresstitle"><span>Internet Marketing</span><span class="value">70%</span></div>
+							<div class="progress">
+	  							<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
+	    							<span class="sr-only">Value</span>
+	  							</div>
+							</div>
+						</div>
+						<div class="single-progressbar">
+							<div class="progresstitle"><span>Wireframing and Structure</span><span class="value">85%</span></div>
+							<div class="progress">
+	  							<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%">
+	    							<span class="sr-only">Value</span>
+	  							</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div><!--end progress-bar-->
+		</div>
+		</div>
+	</div>
+</section><!--end section-specilizer-area-->
+<section id="works-section" class="works-area">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 col-lg-offset-2 col-md-offset-2">
+				<div class="works-content">
+					<h1>Works we did</h1>
+					<div class="work-deliver">
+						<i class="fa fa-tv"></i>
+					</div>
+					<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 col-lg-offset-2 col-md-offset-2">
+						<p>Lorem Ipsum is simply dummy text of the printing and typestting industry. Lorem Ipsum has been the industry's</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section><!--end works-section-->
+<section id="portfolio-section" class="portfolio-area">
+	<div class="container">
+		<div class="row">
+		<div class="col-lg-10 col-md-10 col-sm-12 col-xs-12 col-lg-offset-1 col-md-offset-1">
+			<div class="portfilter-area" >
+				<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 col-lg-offset-4 col-md-offset-4">
+					<div class="portfilter-area text-center">
+						<ul class="portfolio-filter">
+							<li style="list-style-type: none;"><a href="#" class="active" data-filter="*">All</a></li>
+							<li><a href="#" data-filter=".illustration">Illustration</a></li>
+							<li><a href="#" data-filter=".graphics">Graphics</a></li>
+							<li><a href="#" data-filter=".video">Video</a></li>
+							<li><a href="#" data-filter=".web">Web</a></li>
+						</ul>
+					</div>
+				</div>	
+			</div>
+			<div class="portfolio-items">
+				<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 portfolio-item illustration">
+					<div class="portfolio-wrapper">
+						<div class="single-portfolio">
+							<div class="portfolio-thumb">
+								<img src="images/pic1.jpg" alt="picture1.jpg">
+							</div>
+							<div class="port-info text-center">
+								<h4>NAME OF PROJECT</h4>
+								<h6>Name of Categories</h6>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 portfolio-item graphics">
+					<div class="portfolio-wrapper">
+						<div class="single-portfolio">
+							<div class="portfolio-thumb">
+								<img src="images/pic2.jpg" alt="picture2.jpg">
+							</div>
+							<div class="port-info text-center">
+								<h4>NAME OF PROJECT</h4>
+								<h6>Name of Categories</h6>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 portfolio-item video">
+					<div class="portfolio-wrapper">
+						<div class="single-portfolio">
+							<div class="portfolio-thumb">
+								<img src="images/pic3.jpg" alt="picture3.jpg">
+							</div>
+							<div class="port-info text-center">
+								<h4>NAME OF PROJECT</h4>
+								<h6>Name of Categories</h6>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 portfolio-item web">
+					<div class="portfolio-wrapper">
+						<div class="single-portfolio">
+							<div class="portfolio-thumb">
+								<img src="images/pic4.jpg" alt="picture4.jpg">
+							</div>
+							<div class="port-info text-center">
+								<h4>NAME OF PROJECT</h4>
+								<h6>Name of Categories</h6>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 portfolio-item graphics">
+					<div class="portfolio-wrapper">
+						<div class="single-portfolio">
+							<div class="portfolio-thumb">
+								<img src="images/pic5.jpg" alt="picture5.jpg">
+							</div>
+							<div class="port-info text-center">
+								<h4>NAME OF PROJECT</h4>
+								<h6>Name of Categories</h6>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 portfolio-item video">
+					<div class="portfolio-wrapper">
+						<div class="single-portfolio">
+							<div class="portfolio-thumb">
+								<img src="images/pic6.jpg" alt="picture6.jpg">
+							</div>
+							<div class="port-info text-center">
+								<h4>NAME OF PROJECT</h4>
+								<h6>Name of Categories</h6>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+	</div>
+</section><!--end section-portfolio-area-->
+<section id="counter-section" class="counter-area">
+	<div class="container">
+		<div class="row">
+		<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 col-lg-offset-2 col-md-offset-2">
+			<div class="my-counter">
+				<div class="counter-item col-lg-3 col-md-3 col-sm-6 col-xs-6 text-center">
+					<img src="icons/like.png" alt="icon_like.png">
+					<h6>Completed Projects</h6>
+					<span>195</span>
+				</div>
+				<div class="counter-item col-lg-3 col-md-3 col-sm-6 col-xs-6 text-center">
+					<img src="icons/cup.png" alt="icon_cup.png">
+					<h6>Awards Received</h6>
+					<span>27</span>
+				</div>
+				<div class="counter-item col-lg-3 col-md-3 col-sm-6 col-xs-6 text-center">
+					<img src="icons/user.png" alt="icon_user.png">
+					<h6>Happy Customers</h6>
+					<span>950</span>
+				</div>
+				<div class="counter-item col-lg-3 col-md-3 col-sm-6 col-xs-6 text-center">
+					<img src="icons/coffee.png" alt="icon_coffee.png">
+					<h6>Cup of Coffee</h6>
+					<span>510</span>
+				</div>
+			</div>
+		</div>
+		</div>
+	</div>
+</section><!--end section-counter-area-->
+<section id="googleMap-section" class="googleMap-area">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 col-lg-offset-3 col-md-offset-3">
+				<div class="googleMap-content">
+					<h1>Get in touch</h1>
+					<div class="map-devider">
+						<i class="fa fa-angle-down"></i>
+					</div>
+					<div class="col-lg-10 col-md-10 col-sm-12 col-xs-12 col-lg-offset-1 col-md-offset-1">
+						<p>Lorem Ipsum is simply dummy text of the printing and typestting industry. Lorem Ipsum has been the industry's</p>
+					</div>
+					<i class="glyphicon glyphicon-map-marker"></i>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="gooleMap" style="width: 100%;height: 308px;"></div>
+</section><!--end googleMap-section-->
+<footer id="footer-section" class="footer-area">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+				<div class="foot-social-icon">
+					<a href=""><i style="padding: 5px 7px;"class="fa fa-facebook"></i></a>
+					<a href=""><i class="fa fa-twitter"></i></a>
+					<a href=""><i class="fa fa-linkedin"></i></a>
+					<a href=""><i class="fa fa-google-plus"></i></a>
+				</div>
+			</div>
+			<div class="designer">Designed by Moin Khan</div>
+			<div class="maker">Remaker by DongVoDoan</div>
+			<div class="copyright">Copyright &copy; 2016 All Rights Reserved</div>
+		</div>
+	</div>
+</footer><!--end footer-->
+</body>
+</html>

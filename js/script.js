@@ -2,7 +2,7 @@ $(document).ready(function(){
 		// filter portfolio
 		$('.portfolio-items').isotope({
 			itemSelector : '.portfolio-item',
-			ayoutMode : 'fitRows'
+			layoutMode : 'fitRows'
 		});
 
 		$('.portfolio-filter >li >a').click(function(){

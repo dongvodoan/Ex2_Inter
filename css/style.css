@@ -68,7 +68,7 @@ body {
 	bottom: 20%;
 	left:0px;
 	right:0px;
-	position: absolute;
+	position: ;
 	z-index: 2;
 }
 .single-slider .carousel-caption h1 {
@@ -106,7 +106,7 @@ body {
 	height: 62px;
 	top: 40%;
 	width: 28px;
-	z-index: 999;
+	z-index: 2;
 }
 .slider-area .slide .carousel-control:hover{
 	background-color: #f9ad18;

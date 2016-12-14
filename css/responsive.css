@@ -10,15 +10,16 @@
 
 /* md */
 @media (min-width: 992px) and (max-width: 1199px) {
-	/*.googleMap-area .googleMap-content i{
-		top: 103%;
-		left: 46%;
-	}*/
 	.menu-area ul{
 		margin-right: 100px;
 	}
 	.carousel-caption{
-		bottom: 50px;
+		padding-top: 13%;
+	}
+	.slider-area .carousel-caption p{
+		margin-left: 5%;
+		margin-right: 5%;
+		bottom: 0;
 	}
 	.slider-area .carousel-caption h1{
 		font-size: 38px;
@@ -66,9 +67,6 @@
 	  padding-left: 66px;
 	  padding-right: 66px;
 	}*/
-	.carousel-caption{
-		bottom: 20px;
-	}
 	.slider-area .carousel-caption h1{
 		font-size: 36px;
 	}
@@ -99,6 +97,14 @@
 	.works-tabs ul li a.right-tab{
 		padding-right: 114.36px;
 		padding-left: 114.36px;
+	}
+	.carousel-caption{
+		padding-top: 13%;
+	}
+	.slider-area .carousel-caption p{
+		margin-left: 5%;
+		margin-right: 5%;
+		bottom: 0;
 	}
 }
 
@@ -170,6 +176,15 @@
 	.portfolio-area .portfolio-items{
 		margin-left: 29%;
 	}
+	.carousel-caption{
+		padding-top: 13%;
+	}
+	.slider-area .carousel-caption p{
+		font-size: 16px;
+		margin-left: 5%;
+		margin-right: 5%;
+		bottom: 0;
+	}
 }
 
 /*667*/
@@ -221,7 +236,7 @@
 		font-size: 26px;
 	}
 	.carousel-caption{
-		bottom: 20px;
+		padding-top: 10%;
 	}
 	.slider-area .carousel-caption h1{
 		font-size: 36px;
@@ -315,7 +330,7 @@
 		font-size: 26px;
 	}
 	.carousel-caption{
-		bottom: -2px;
+		padding-top: 6%;
 	}
 	.slider-area .carousel-caption h1{
 		font-size: 35px;
@@ -410,6 +425,9 @@
 		top: 96%;
 		left: 43%;
 	}
+	.carousel-caption{
+		padding-top: 10%;
+	}
 }
 
 /* 450px portrait - iphone 6 plump portrait*/
@@ -461,7 +479,7 @@
 		font-size: 26px;
 	}
 	.carousel-caption{
-		bottom: -12px;
+		padding-top: 4%;
 	}
 	.slider-area .carousel-caption h1{
 		font-size: 23px;
@@ -585,7 +603,7 @@
 		font-size: 26px;
 	}
 	.carousel-caption{
-		bottom: -15px;
+		padding-top: 4%;
 	}
 	.slider-area .carousel-caption h1{
 		font-size: 22px;
@@ -713,13 +731,13 @@
 		font-size: 26px;
 	}
 	.carousel-caption{
-		bottom: -15px;
+		padding-top: 3%;
 	}
 	.slider-area .carousel-caption h1{
-		font-size: 22px;
+		font-size: 21px;
 	}
 	.slider-area .carousel-caption p{
-		font-size: 12px;
+		font-size: 11px;
 		margin-left: 5%;
 		margin-right: 5%;
 		bottom: 0;
@@ -841,7 +859,7 @@
 		font-size: 26px;
 	}
 	.carousel-caption{
-		bottom: -10px;
+		padding-top: 3%;
 	}
 	.slider-area .carousel-caption h1{
 		font-size: 20px;
@@ -987,7 +1005,7 @@
 		font-size: 26px;
 	}
 	.carousel-caption{
-		bottom: -10px;
+		padding-top: 0%;
 	}
 	.slider-area .carousel-caption h1{
 		font-size: 20px;
